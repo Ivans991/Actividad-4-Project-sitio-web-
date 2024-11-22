@@ -1,0 +1,12 @@
+[build]
+  base = "."
+  publish = "public"
+  command = "npm install && npm start"
+
+[functions]
+  directory = "netlify/functions"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

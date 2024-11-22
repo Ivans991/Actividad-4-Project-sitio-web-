@@ -9,9 +9,5 @@
   "dependencies": {
     "express": "^4.21.1"
   },
-  "description": "",
-  "devDependencies": {},
-  "keywords": [],
-  "author": "",
   "license": "ISC"
 }
