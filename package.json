@@ -2,11 +2,16 @@
   "name": "project-web",
   "version": "1.0.0",
   "main": "index.js",
-"scripts": {
-  "build": "echo 'No build process required' && exit 0"
-}
-,
+  "scripts": {
+    "build": "echo 'No build process required' && exit 0",
+    "start": "node server.js"
+  },
   "dependencies": {
-    "express": "^4.21.1"  
-  }
+    "express": "^4.21.1"
+  },
+  "description": "",
+  "devDependencies": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
