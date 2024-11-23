@@ -1,7 +1,9 @@
 const express = require('express');
 const path = require('path');
 const app = express();
-const port = 4000;
+
+// Usar el puerto proporcionado por Render (o 4000 como fallback)
+const port = process.env.PORT || 4000;
 
 // Middleware para manejar formularios
 app.use(express.urlencoded({ extended: true }));
@@ -36,17 +38,18 @@ app.get('/accesorios', (req, res) => {
 
 // Ruta para manejar el formulario de contacto
 app.post('/enviar-formulario', (req, res) => {
-  const { nombre, email, mensaje } = req.body;
+    const { nombre, email, mensaje } = req.body;
 
-  // Por ahora, muestra los datos en consola
-  console.log(`Nombre: ${nombre}, Email: ${email}, Mensaje: ${mensaje}`);
+    // Muestra los datos en la consola para verificar
+    console.log(`Nombre: ${nombre}, Email: ${email}, Mensaje: ${mensaje}`);
 
-  // Envía una respuesta al usuario
-  res.send(`
-      <h1>Gracias por contactarnos, ${nombre}!</h1>
-      <p>Hemos recibido tu mensaje y te responderemos pronto.</p>
-      <a href="/">Volver al inicio</a>
-  `);
+    // Redirige al usuario a la página de agradecimiento
+    res.redirect('/thank-you');  // Redirige a la nueva página de agradecimiento
+});
+
+// Ruta para la página de agradecimiento
+app.get('/thank-you', (req, res) => {
+    res.sendFile(path.join(__dirname, 'views', 'thank-you.html'));
 });
 
 // Manejador para rutas no encontradas (404)
@@ -58,8 +61,7 @@ app.use((req, res) => {
   `);
 });
 
-// Arranca el servidor
+// Arranca el servidor en el puerto especificado por Render (o 4000 como fallback)
 app.listen(port, () => {
   console.log(`Servidor corriendo en http://localhost:${port}`);
 });
-
