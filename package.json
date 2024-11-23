@@ -1,7 +1,7 @@
 {
   "name": "project-web",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "build": "echo 'No build process required' && exit 0",
     "start": "node server.js"
