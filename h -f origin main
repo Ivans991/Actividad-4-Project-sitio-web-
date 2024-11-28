@@ -1,0 +1,1183 @@
+[33mcommit 8a619628f403dac77c2bf3b02cda76e3399b11a7[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Ivans991 <isotoriv@estudiante.ibero.edu.co>
+Date:   Mon Nov 25 20:35:24 2024 -0500
+
+    Corrección de enlaces en el pie de página
+
+ views/accesorios.html | 11 [32m+++++[m[31m------[m
+ views/contacto.html   |  7 [32m++++++[m[31m-[m
+ views/hombres.html    | 11 [32m+++++[m[31m------[m
+ views/mujeres.html    | 11 [32m++++++[m[31m-----[m
+ 4 files changed, 22 insertions(+), 18 deletions(-)
+
+[33mcommit d59b10d4625fe44c1f0bc56987f1e8e7c8881285[m
+Author: Ivans991 <isotoriv@estudiante.ibero.edu.co>
+Date:   Sat Nov 23 11:46:25 2024 -0500
+
+    Agregado archivo thank-you.html y otros cambios
+
+ views/thank-you.html | 39 [32m+++++++++++++++++++++++++++++++++++++++[m
+ 1 file changed, 39 insertions(+)
+
+[33mcommit ab32895c34fc67b5ca3f1875db10b89aaa5ec762[m
+Author: Ivans991 <isotoriv@estudiante.ibero.edu.co>
+Date:   Sat Nov 23 11:14:09 2024 -0500
+
+    Descripción de los cambios realizados
+
+ server.js           | 26 [32m++++++++++++++[m[31m------------[m
+ views/contacto.html |  4 [32m++[m[31m--[m
+ 2 files changed, 16 insertions(+), 14 deletions(-)
+
+[33mcommit 36251ed814d325ee5de83cd3ae0d8039b0eab332[m
+Author: Ivans991 <isotoriv@estudiante.ibero.edu.co>
+Date:   Sat Nov 23 10:38:43 2024 -0500
+
+    Corrige formulario de contacto y redirección
+
+ views/thank-you.html | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+[33mcommit b2c597588379decbbd7051445437a68251cfa554[m
+Author: Ivans991 <isotoriv@estudiante.ibero.edu.co>
+Date:   Sat Nov 23 10:21:19 2024 -0500
+
+    Cambio de nombre de producto en la página de accesorios
+
+ package.json          | 2 [32m+[m[31m-[m
+ views/accesorios.html | 2 [32m+[m[31m-[m
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+
+[33mcommit 2218dbee3404136e729411493e8ce2e8130f862a[m
+Merge: 21b25d6 003f6e0
+Author: Ivans991 <isotoriv@estudiante.ibero.edu.co>
+Date:   Sat Nov 23 08:33:10 2024 -0500
+
+    Resuelve conflictos en .gitignore y README.md
+
+[33mcommit 21b25d6672f20e8adab7c460c44c2018518df238[m[33m ([m[1;31morigin/master[m[33m, [m[1;32mmaster[m[33m)[m
+Author: Ivans991 <isotoriv@estudiante.ibero.edu.co>
+Date:   Fri Nov 22 14:31:49 2024 -0500
+
+    Modifica package.json y agrega netlify.toml
+
+ netlify.toml | 12 [32m++++++++++++[m
+ package.json |  4 [31m----[m
+ 2 files changed, 12 insertions(+), 4 deletions(-)
+
+[33mcommit 5f9e5243542614d03f32c2faf369e7843c319c03[m
+Author: Ivans991 <isotoriv@estudiante.ibero.edu.co>
+Date:   Fri Nov 22 13:57:29 2024 -0500
+
+    Elimina node_modules de seguimiento
+
+ node_modules/.bin/mime                             |   16 [31m-[m
+ node_modules/.bin/mime.cmd                         |   17 [31m-[m
+ node_modules/.bin/mime.ps1                         |   28 [31m-[m
+ node_modules/.package-lock.json                    |  765 [31m--[m
+ node_modules/accepts/HISTORY.md                    |  243 [31m-[m
+ node_modules/accepts/LICENSE                       |   23 [31m-[m
+ node_modules/accepts/README.md                     |  140 [31m-[m
+ node_modules/accepts/index.js                      |  238 [31m-[m
+ node_modules/accepts/package.json                  |   47 [31m-[m
+ node_modules/array-flatten/LICENSE                 |   21 [31m-[m
+ node_modules/array-flatten/README.md               |   43 [31m-[m
+ node_modules/array-flatten/array-flatten.js        |   64 [31m-[m
+ node_modules/array-flatten/package.json            |   39 [31m-[m
+ node_modules/body-parser/HISTORY.md                |  672 [31m--[m
+ node_modules/body-parser/LICENSE                   |   23 [31m-[m
+ node_modules/body-parser/README.md                 |  476 [31m--[m
+ node_modules/body-parser/SECURITY.md               |   25 [31m-[m
+ node_modules/body-parser/index.js                  |  156 [31m-[m
+ node_modules/body-parser/lib/read.js               |  205 [31m-[m
+ node_modules/body-parser/lib/types/json.js         |  247 [31m-[m
+ node_modules/body-parser/lib/types/raw.js          |  101 [31m-[m
+ node_modules/body-parser/lib/types/text.js         |  121 [31m-[m
+ node_modules/body-parser/lib/types/urlencoded.js   |  307 [31m-[m
+ node_modules/body-parser/package.json              |   56 [31m-[m
+ node_modules/bytes/History.md                      |   97 [31m-[m
+ node_modules/bytes/LICENSE                         |   23 [31m-[m
+ node_modules/bytes/Readme.md                       |  152 [31m-[m
+ node_modules/bytes/index.js                        |  170 [31m-[m
+ node_modules/bytes/package.json                    |   42 [31m-[m
+ node_modules/call-bind/.eslintignore               |    1 [31m-[m
+ node_modules/call-bind/.eslintrc                   |   16 [31m-[m
+ node_modules/call-bind/.github/FUNDING.yml         |   12 [31m-[m
+ node_modules/call-bind/.nycrc                      |    9 [31m-[m
+ node_modules/call-bind/CHANGELOG.md                |   93 [31m-[m
+ node_modules/call-bind/LICENSE                     |   21 [31m-[m
+ node_modules/call-bind/README.md                   |   64 [31m-[m
+ node_modules/call-bind/callBound.js                |   15 [31m-[m
+ node_modules/call-bind/index.js                    |   35 [31m-[m
+ node_modules/call-bind/package.json                |   95 [31m-[m
+ node_modules/call-bind/test/callBound.js           |   54 [31m-[m
+ node_modules/call-bind/test/index.js               |   80 [31m-[m
+ node_modules/content-disposition/HISTORY.md        |   60 [31m-[m
+ node_modules/content-disposition/LICENSE           |   22 [31m-[m
+ node_modules/content-disposition/README.md         |  142 [31m-[m
+ node_modules/content-disposition/index.js          |  458 [31m--[m
+ node_modules/content-disposition/package.json      |   44 [31m-[m
+ node_modules/content-type/HISTORY.md               |   29 [31m-[m
+ node_modules/content-type/LICENSE                  |   22 [31m-[m
+ node_modules/content-type/README.md                |   94 [31m-[m
+ node_modules/content-type/index.js                 |  225 [31m-[m
+ node_modules/content-type/package.json             |   42 [31m-[m
+ node_modules/cookie-signature/.npmignore           |    4 [31m-[m
+ node_modules/cookie-signature/History.md           |   38 [31m-[m
+ node_modules/cookie-signature/Readme.md            |   42 [31m-[m
+ node_modules/cookie-signature/index.js             |   51 [31m-[m
+ node_modules/cookie-signature/package.json         |   18 [31m-[m
+ node_modules/cookie/LICENSE                        |   24 [31m-[m
+ node_modules/cookie/README.md                      |  317 [31m-[m
+ node_modules/cookie/SECURITY.md                    |   25 [31m-[m
+ node_modules/cookie/index.js                       |  334 [31m-[m
+ node_modules/cookie/package.json                   |   44 [31m-[m
+ node_modules/debug/.coveralls.yml                  |    1 [31m-[m
+ node_modules/debug/.eslintrc                       |   11 [31m-[m
+ node_modules/debug/.npmignore                      |    9 [31m-[m
+ node_modules/debug/.travis.yml                     |   14 [31m-[m
+ node_modules/debug/CHANGELOG.md                    |  362 [31m-[m
+ node_modules/debug/LICENSE                         |   19 [31m-[m
+ node_modules/debug/Makefile                        |   50 [31m-[m
+ node_modules/debug/README.md                       |  312 [31m-[m
+ node_modules/debug/component.json                  |   19 [31m-[m
+ node_modules/debug/karma.conf.js                   |   70 [31m-[m
+ node_modules/debug/node.js                         |    1 [31m-[m
+ node_modules/debug/package.json                    |   49 [31m-[m
+ node_modules/debug/src/browser.js                  |  185 [31m-[m
+ node_modules/debug/src/debug.js                    |  202 [31m-[m
+ node_modules/debug/src/index.js                    |   10 [31m-[m
+ node_modules/debug/src/inspector-log.js            |   15 [31m-[m
+ node_modules/debug/src/node.js                     |  248 [31m-[m
+ node_modules/define-data-property/.eslintrc        |   24 [31m-[m
+ .../define-data-property/.github/FUNDING.yml       |   12 [31m-[m
+ node_modules/define-data-property/.nycrc           |   13 [31m-[m
+ node_modules/define-data-property/CHANGELOG.md     |   70 [31m-[m
+ node_modules/define-data-property/LICENSE          |   21 [31m-[m
+ node_modules/define-data-property/README.md        |   67 [31m-[m
+ node_modules/define-data-property/index.d.ts       |   12 [31m-[m
+ node_modules/define-data-property/index.js         |   56 [31m-[m
+ node_modules/define-data-property/package.json     |  106 [31m-[m
+ node_modules/define-data-property/test/index.js    |  392 [31m-[m
+ node_modules/define-data-property/tsconfig.json    |   59 [31m-[m
+ node_modules/depd/History.md                       |  103 [31m-[m
+ node_modules/depd/LICENSE                          |   22 [31m-[m
+ node_modules/depd/Readme.md                        |  280 [31m-[m
+ node_modules/depd/index.js                         |  538 [31m--[m
+ node_modules/depd/lib/browser/index.js             |   77 [31m-[m
+ node_modules/depd/package.json                     |   45 [31m-[m
+ node_modules/destroy/LICENSE                       |   23 [31m-[m
+ node_modules/destroy/README.md                     |   63 [31m-[m
+ node_modules/destroy/index.js                      |  209 [31m-[m
+ node_modules/destroy/package.json                  |   48 [31m-[m
+ node_modules/ee-first/LICENSE                      |   22 [31m-[m
+ node_modules/ee-first/README.md                    |   80 [31m-[m
+ node_modules/ee-first/index.js                     |   95 [31m-[m
+ node_modules/ee-first/package.json                 |   29 [31m-[m
+ node_modules/encodeurl/LICENSE                     |   22 [31m-[m
+ node_modules/encodeurl/README.md                   |  109 [31m-[m
+ node_modules/encodeurl/index.js                    |   60 [31m-[m
+ node_modules/encodeurl/package.json                |   40 [31m-[m
+ node_modules/es-define-property/.eslintrc          |   13 [31m-[m
+ .../es-define-property/.github/FUNDING.yml         |   12 [31m-[m
+ node_modules/es-define-property/.nycrc             |    9 [31m-[m
+ node_modules/es-define-property/CHANGELOG.md       |   15 [31m-[m
+ node_modules/es-define-property/LICENSE            |   21 [31m-[m
+ node_modules/es-define-property/README.md          |   49 [31m-[m
+ node_modules/es-define-property/index.d.ts         |    3 [31m-[m
+ node_modules/es-define-property/index.js           |   16 [31m-[m
+ node_modules/es-define-property/package.json       |   81 [31m-[m
+ node_modules/es-define-property/test/index.js      |   55 [31m-[m
+ node_modules/es-define-property/tsconfig.json      |   50 [31m-[m
+ node_modules/es-errors/.eslintrc                   |    5 [31m-[m
+ node_modules/es-errors/.github/FUNDING.yml         |   12 [31m-[m
+ node_modules/es-errors/CHANGELOG.md                |   40 [31m-[m
+ node_modules/es-errors/LICENSE                     |   21 [31m-[m
+ node_modules/es-errors/README.md                   |   55 [31m-[m
+ node_modules/es-errors/eval.d.ts                   |    3 [31m-[m
+ node_modules/es-errors/eval.js                     |    4 [31m-[m
+ node_modules/es-errors/index.d.ts                  |    3 [31m-[m
+ node_modules/es-errors/index.js                    |    4 [31m-[m
+ node_modules/es-errors/package.json                |   80 [31m-[m
+ node_modules/es-errors/range.d.ts                  |    3 [31m-[m
+ node_modules/es-errors/range.js                    |    4 [31m-[m
+ node_modules/es-errors/ref.d.ts                    |    3 [31m-[m
+ node_modules/es-errors/ref.js                      |    4 [31m-[m
+ node_modules/es-errors/syntax.d.ts                 |    3 [31m-[m
+ node_modules/es-errors/syntax.js                   |    4 [31m-[m
+ node_modules/es-errors/test/index.js               |   19 [31m-[m
+ node_modules/es-errors/tsconfig.json               |   49 [31m-[m
+ node_modules/es-errors/type.d.ts                   |    3 [31m-[m
+ node_modules/es-errors/type.js                     |    4 [31m-[m
+ node_modules/es-errors/uri.d.ts                    |    3 [31m-[m
+ node_modules/es-errors/uri.js                      |    4 [31m-[m
+ node_modules/escape-html/LICENSE                   |   24 [31m-[m
+ node_modules/escape-html/Readme.md                 |   43 [31m-[m
+ node_modules/escape-html/index.js                  |   78 [31m-[m
+ node_modules/escape-html/package.json              |   24 [31m-[m
+ node_modules/etag/HISTORY.md                       |   83 [31m-[m
+ node_modules/etag/LICENSE                          |   22 [31m-[m
+ node_modules/etag/README.md                        |  159 [31m-[m
+ node_modules/etag/index.js                         |  131 [31m-[m
+ node_modules/etag/package.json                     |   47 [31m-[m
+ node_modules/express/History.md                    | 3647 [31m---------[m
+ node_modules/express/LICENSE                       |   24 [31m-[m
+ node_modules/express/Readme.md                     |  260 [31m-[m
+ node_modules/express/index.js                      |   11 [31m-[m
+ node_modules/express/lib/application.js            |  661 [31m--[m
+ node_modules/express/lib/express.js                |  116 [31m-[m
+ node_modules/express/lib/middleware/init.js        |   43 [31m-[m
+ node_modules/express/lib/middleware/query.js       |   47 [31m-[m
+ node_modules/express/lib/request.js                |  525 [31m--[m
+ node_modules/express/lib/response.js               | 1179 [31m---[m
+ node_modules/express/lib/router/index.js           |  673 [31m--[m
+ node_modules/express/lib/router/layer.js           |  181 [31m-[m
+ node_modules/express/lib/router/route.js           |  230 [31m-[m
+ node_modules/express/lib/utils.js                  |  303 [31m-[m
+ node_modules/express/lib/view.js                   |  182 [31m-[m
+ node_modules/express/package.json                  |   98 [31m-[m
+ node_modules/finalhandler/HISTORY.md               |  210 [31m-[m
+ node_modules/finalhandler/LICENSE                  |   22 [31m-[m
+ node_modules/finalhandler/README.md                |  147 [31m-[m
+ node_modules/finalhandler/SECURITY.md              |   25 [31m-[m
+ node_modules/finalhandler/index.js                 |  341 [31m-[m
+ node_modules/finalhandler/package.json             |   47 [31m-[m
+ node_modules/forwarded/HISTORY.md                  |   21 [31m-[m
+ node_modules/forwarded/LICENSE                     |   22 [31m-[m
+ node_modules/forwarded/README.md                   |   57 [31m-[m
+ node_modules/forwarded/index.js                    |   90 [31m-[m
+ node_modules/forwarded/package.json                |   45 [31m-[m
+ node_modules/fresh/HISTORY.md                      |   70 [31m-[m
+ node_modules/fresh/LICENSE                         |   23 [31m-[m
+ node_modules/fresh/README.md                       |  119 [31m-[m
+ node_modules/fresh/index.js                        |  137 [31m-[m
+ node_modules/fresh/package.json                    |   46 [31m-[m
+ node_modules/function-bind/.eslintrc               |   21 [31m-[m
+ node_modules/function-bind/.github/FUNDING.yml     |   12 [31m-[m
+ node_modules/function-bind/.github/SECURITY.md     |    3 [31m-[m
+ node_modules/function-bind/.nycrc                  |   13 [31m-[m
+ node_modules/function-bind/CHANGELOG.md            |  136 [31m-[m
+ node_modules/function-bind/LICENSE                 |   20 [31m-[m
+ node_modules/function-bind/README.md               |   46 [31m-[m
+ node_modules/function-bind/implementation.js       |   84 [31m-[m
+ node_modules/function-bind/index.js                |    5 [31m-[m
+ node_modules/function-bind/package.json            |   87 [31m-[m
+ node_modules/function-bind/test/.eslintrc          |    9 [31m-[m
+ node_modules/function-bind/test/index.js           |  252 [31m-[m
+ node_modules/get-intrinsic/.eslintrc               |   38 [31m-[m
+ node_modules/get-intrinsic/.github/FUNDING.yml     |   12 [31m-[m
+ node_modules/get-intrinsic/.nycrc                  |    9 [31m-[m
+ node_modules/get-intrinsic/CHANGELOG.md            |  143 [31m-[m
+ node_modules/get-intrinsic/LICENSE                 |   21 [31m-[m
+ node_modules/get-intrinsic/README.md               |   71 [31m-[m
+ node_modules/get-intrinsic/index.js                |  359 [31m-[m
+ node_modules/get-intrinsic/package.json            |   93 [31m-[m
+ node_modules/get-intrinsic/test/GetIntrinsic.js    |  274 [31m-[m
+ node_modules/gopd/.eslintrc                        |   16 [31m-[m
+ node_modules/gopd/.github/FUNDING.yml              |   12 [31m-[m
+ node_modules/gopd/CHANGELOG.md                     |   25 [31m-[m
+ node_modules/gopd/LICENSE                          |   21 [31m-[m
+ node_modules/gopd/README.md                        |   40 [31m-[m
+ node_modules/gopd/index.js                         |   16 [31m-[m
+ node_modules/gopd/package.json                     |   71 [31m-[m
+ node_modules/gopd/test/index.js                    |   35 [31m-[m
+ node_modules/has-property-descriptors/.eslintrc    |   13 [31m-[m
+ .../has-property-descriptors/.github/FUNDING.yml   |   12 [31m-[m
+ node_modules/has-property-descriptors/.nycrc       |    9 [31m-[m
+ node_modules/has-property-descriptors/CHANGELOG.md |   35 [31m-[m
+ node_modules/has-property-descriptors/LICENSE      |   21 [31m-[m
+ node_modules/has-property-descriptors/README.md    |   43 [31m-[m
+ node_modules/has-property-descriptors/index.js     |   22 [31m-[m
+ node_modules/has-property-descriptors/package.json |   77 [31m-[m
+ .../has-property-descriptors/test/index.js         |   57 [31m-[m
+ node_modules/has-proto/.eslintrc                   |    5 [31m-[m
+ node_modules/has-proto/.github/FUNDING.yml         |   12 [31m-[m
+ node_modules/has-proto/CHANGELOG.md                |   38 [31m-[m
+ node_modules/has-proto/LICENSE                     |   21 [31m-[m
+ node_modules/has-proto/README.md                   |   38 [31m-[m
+ node_modules/has-proto/index.d.ts                  |    3 [31m-[m
+ node_modules/has-proto/index.js                    |   15 [31m-[m
+ node_modules/has-proto/package.json                |   78 [31m-[m
+ node_modules/has-proto/test/index.js               |   19 [31m-[m
+ node_modules/has-proto/tsconfig.json               |   49 [31m-[m
+ node_modules/has-symbols/.eslintrc                 |   11 [31m-[m
+ node_modules/has-symbols/.github/FUNDING.yml       |   12 [31m-[m
+ node_modules/has-symbols/.nycrc                    |    9 [31m-[m
+ node_modules/has-symbols/CHANGELOG.md              |   75 [31m-[m
+ node_modules/has-symbols/LICENSE                   |   21 [31m-[m
+ node_modules/has-symbols/README.md                 |   46 [31m-[m
+ node_modules/has-symbols/index.js                  |   13 [31m-[m
+ node_modules/has-symbols/package.json              |  101 [31m-[m
+ node_modules/has-symbols/shams.js                  |   42 [31m-[m
+ node_modules/has-symbols/test/index.js             |   22 [31m-[m
+ node_modules/has-symbols/test/shams/core-js.js     |   28 [31m-[m
+ .../test/shams/get-own-property-symbols.js         |   28 [31m-[m
+ node_modules/has-symbols/test/tests.js             |   56 [31m-[m
+ node_modules/hasown/.eslintrc                      |    5 [31m-[m
+ node_modules/hasown/.github/FUNDING.yml            |   12 [31m-[m
+ node_modules/hasown/.nycrc                         |   13 [31m-[m
+ node_modules/hasown/CHANGELOG.md                   |   40 [31m-[m
+ node_modules/hasown/LICENSE                        |   21 [31m-[m
+ node_modules/hasown/README.md                      |   40 [31m-[m
+ node_modules/hasown/index.d.ts                     |    3 [31m-[m
+ node_modules/hasown/index.js                       |    8 [31m-[m
+ node_modules/hasown/package.json                   |   92 [31m-[m
+ node_modules/hasown/tsconfig.json                  |    6 [31m-[m
+ node_modules/http-errors/HISTORY.md                |  180 [31m-[m
+ node_modules/http-errors/LICENSE                   |   23 [31m-[m
+ node_modules/http-errors/README.md                 |  169 [31m-[m
+ node_modules/http-errors/index.js                  |  289 [31m-[m
+ node_modules/http-errors/package.json              |   50 [31m-[m
+ node_modules/iconv-lite/Changelog.md               |  162 [31m-[m
+ node_modules/iconv-lite/LICENSE                    |   21 [31m-[m
+ node_modules/iconv-lite/README.md                  |  156 [31m-[m
+ node_modules/iconv-lite/encodings/dbcs-codec.js    |  555 [31m--[m
+ node_modules/iconv-lite/encodings/dbcs-data.js     |  176 [31m-[m
+ node_modules/iconv-lite/encodings/index.js         |   22 [31m-[m
+ node_modules/iconv-lite/encodings/internal.js      |  188 [31m-[m
+ node_modules/iconv-lite/encodings/sbcs-codec.js    |   72 [31m-[m
+ .../iconv-lite/encodings/sbcs-data-generated.js    |  451 [31m--[m
+ node_modules/iconv-lite/encodings/sbcs-data.js     |  174 [31m-[m
+ .../iconv-lite/encodings/tables/big5-added.json    |  122 [31m-[m
+ .../iconv-lite/encodings/tables/cp936.json         |  264 [31m-[m
+ .../iconv-lite/encodings/tables/cp949.json         |  273 [31m-[m
+ .../iconv-lite/encodings/tables/cp950.json         |  177 [31m-[m
+ .../iconv-lite/encodings/tables/eucjp.json         |  182 [31m-[m
+ .../encodings/tables/gb18030-ranges.json           |    1 [31m-[m
+ .../iconv-lite/encodings/tables/gbk-added.json     |   55 [31m-[m
+ .../iconv-lite/encodings/tables/shiftjis.json      |  125 [31m-[m
+ node_modules/iconv-lite/encodings/utf16.js         |  177 [31m-[m
+ node_modules/iconv-lite/encodings/utf7.js          |  290 [31m-[m
+ node_modules/iconv-lite/lib/bom-handling.js        |   52 [31m-[m
+ node_modules/iconv-lite/lib/extend-node.js         |  217 [31m-[m
+ node_modules/iconv-lite/lib/index.d.ts             |   24 [31m-[m
+ node_modules/iconv-lite/lib/index.js               |  153 [31m-[m
+ node_modules/iconv-lite/lib/streams.js             |  121 [31m-[m
+ node_modules/iconv-lite/package.json               |   46 [31m-[m
+ node_modules/inherits/LICENSE                      |   16 [31m-[m
+ node_modules/inherits/README.md                    |   42 [31m-[m
+ node_modules/inherits/inherits.js                  |    9 [31m-[m
+ node_modules/inherits/inherits_browser.js          |   27 [31m-[m
+ node_modules/inherits/package.json                 |   29 [31m-[m
+ node_modules/ipaddr.js/LICENSE                     |   19 [31m-[m
+ node_modules/ipaddr.js/README.md                   |  233 [31m-[m
+ node_modules/ipaddr.js/ipaddr.min.js               |    1 [31m-[m
+ node_modules/ipaddr.js/lib/ipaddr.js               |  673 [31m--[m
+ node_modules/ipaddr.js/lib/ipaddr.js.d.ts          |   68 [31m-[m
+ node_modules/ipaddr.js/package.json                |   35 [31m-[m
+ node_modules/media-typer/HISTORY.md                |   22 [31m-[m
+ node_modules/media-typer/LICENSE                   |   22 [31m-[m
+ node_modules/media-typer/README.md                 |   81 [31m-[m
+ node_modules/media-typer/index.js                  |  270 [31m-[m
+ node_modules/media-typer/package.json              |   26 [31m-[m
+ node_modules/merge-descriptors/HISTORY.md          |   21 [31m-[m
+ node_modules/merge-descriptors/LICENSE             |   23 [31m-[m
+ node_modules/merge-descriptors/README.md           |   49 [31m-[m
+ node_modules/merge-descriptors/index.js            |   60 [31m-[m
+ node_modules/merge-descriptors/package.json        |   39 [31m-[m
+ node_modules/methods/HISTORY.md                    |   29 [31m-[m
+ node_modules/methods/LICENSE                       |   24 [31m-[m
+ node_modules/methods/README.md                     |   51 [31m-[m
+ node_modules/methods/index.js                      |   69 [31m-[m
+ node_modules/methods/package.json                  |   36 [31m-[m
+ node_modules/mime-db/HISTORY.md                    |  507 [31m--[m
+ node_modules/mime-db/LICENSE                       |   23 [31m-[m
+ node_modules/mime-db/README.md                     |  100 [31m-[m
+ node_modules/mime-db/db.json                       | 8519 [31m--------------------[m
+ node_modules/mime-db/index.js                      |   12 [31m-[m
+ node_modules/mime-db/package.json                  |   60 [31m-[m
+ node_modules/mime-types/HISTORY.md                 |  397 [31m-[m
+ node_modules/mime-types/LICENSE                    |   23 [31m-[m
+ node_modules/mime-types/README.md                  |  113 [31m-[m
+ node_modules/mime-types/index.js                   |  188 [31m-[m
+ node_modules/mime-types/package.json               |   44 [31m-[m
+ node_modules/mime/.npmignore                       |    0
+ node_modules/mime/CHANGELOG.md                     |  164 [31m-[m
+ node_modules/mime/LICENSE                          |   21 [31m-[m
+ node_modules/mime/README.md                        |   90 [31m-[m
+ node_modules/mime/cli.js                           |    8 [31m-[m
+ node_modules/mime/mime.js                          |  108 [31m-[m
+ node_modules/mime/package.json                     |   44 [31m-[m
+ node_modules/mime/src/build.js                     |   53 [31m-[m
+ node_modules/mime/src/test.js                      |   60 [31m-[m
+ node_modules/mime/types.json                       |    1 [31m-[m
+ node_modules/ms/index.js                           |  152 [31m-[m
+ node_modules/ms/license.md                         |   21 [31m-[m
+ node_modules/ms/package.json                       |   37 [31m-[m
+ node_modules/ms/readme.md                          |   51 [31m-[m
+ node_modules/negotiator/HISTORY.md                 |  108 [31m-[m
+ node_modules/negotiator/LICENSE                    |   24 [31m-[m
+ node_modules/negotiator/README.md                  |  203 [31m-[m
+ node_modules/negotiator/index.js                   |   82 [31m-[m
+ node_modules/negotiator/lib/charset.js             |  169 [31m-[m
+ node_modules/negotiator/lib/encoding.js            |  184 [31m-[m
+ node_modules/negotiator/lib/language.js            |  179 [31m-[m
+ node_modules/negotiator/lib/mediaType.js           |  294 [31m-[m
+ node_modules/negotiator/package.json               |   42 [31m-[m
+ node_modules/object-inspect/.eslintrc              |   53 [31m-[m
+ node_modules/object-inspect/.github/FUNDING.yml    |   12 [31m-[m
+ node_modules/object-inspect/.nycrc                 |   13 [31m-[m
+ node_modules/object-inspect/CHANGELOG.md           |  416 [31m-[m
+ node_modules/object-inspect/LICENSE                |   21 [31m-[m
+ node_modules/object-inspect/example/all.js         |   23 [31m-[m
+ node_modules/object-inspect/example/circular.js    |    6 [31m-[m
+ node_modules/object-inspect/example/fn.js          |    5 [31m-[m
+ node_modules/object-inspect/example/inspect.js     |   10 [31m-[m
+ node_modules/object-inspect/index.js               |  541 [31m--[m
+ node_modules/object-inspect/package-support.json   |   20 [31m-[m
+ node_modules/object-inspect/package.json           |  104 [31m-[m
+ node_modules/object-inspect/readme.markdown        |   84 [31m-[m
+ node_modules/object-inspect/test-core-js.js        |   26 [31m-[m
+ node_modules/object-inspect/test/bigint.js         |   58 [31m-[m
+ node_modules/object-inspect/test/browser/dom.js    |   15 [31m-[m
+ node_modules/object-inspect/test/circular.js       |   16 [31m-[m
+ node_modules/object-inspect/test/deep.js           |   12 [31m-[m
+ node_modules/object-inspect/test/element.js        |   53 [31m-[m
+ node_modules/object-inspect/test/err.js            |   48 [31m-[m
+ node_modules/object-inspect/test/fakes.js          |   29 [31m-[m
+ node_modules/object-inspect/test/fn.js             |   76 [31m-[m
+ node_modules/object-inspect/test/global.js         |   17 [31m-[m
+ node_modules/object-inspect/test/has.js            |   15 [31m-[m
+ node_modules/object-inspect/test/holes.js          |   15 [31m-[m
+ node_modules/object-inspect/test/indent-option.js  |  271 [31m-[m
+ node_modules/object-inspect/test/inspect.js        |  139 [31m-[m
+ node_modules/object-inspect/test/lowbyte.js        |   12 [31m-[m
+ node_modules/object-inspect/test/number.js         |   58 [31m-[m
+ node_modules/object-inspect/test/quoteStyle.js     |   26 [31m-[m
+ node_modules/object-inspect/test/toStringTag.js    |   40 [31m-[m
+ node_modules/object-inspect/test/undef.js          |   12 [31m-[m
+ node_modules/object-inspect/test/values.js         |  211 [31m-[m
+ node_modules/object-inspect/util.inspect.js        |    1 [31m-[m
+ node_modules/on-finished/HISTORY.md                |   98 [31m-[m
+ node_modules/on-finished/LICENSE                   |   23 [31m-[m
+ node_modules/on-finished/README.md                 |  162 [31m-[m
+ node_modules/on-finished/index.js                  |  234 [31m-[m
+ node_modules/on-finished/package.json              |   39 [31m-[m
+ node_modules/parseurl/HISTORY.md                   |   58 [31m-[m
+ node_modules/parseurl/LICENSE                      |   24 [31m-[m
+ node_modules/parseurl/README.md                    |  133 [31m-[m
+ node_modules/parseurl/index.js                     |  158 [31m-[m
+ node_modules/parseurl/package.json                 |   40 [31m-[m
+ node_modules/path-to-regexp/LICENSE                |   21 [31m-[m
+ node_modules/path-to-regexp/Readme.md              |   35 [31m-[m
+ node_modules/path-to-regexp/index.js               |  146 [31m-[m
+ node_modules/path-to-regexp/package.json           |   30 [31m-[m
+ node_modules/proxy-addr/HISTORY.md                 |  161 [31m-[m
+ node_modules/proxy-addr/LICENSE                    |   22 [31m-[m
+ node_modules/proxy-addr/README.md                  |  139 [31m-[m
+ node_modules/proxy-addr/index.js                   |  327 [31m-[m
+ node_modules/proxy-addr/package.json               |   47 [31m-[m
+ node_modules/qs/.editorconfig                      |   46 [31m-[m
+ node_modules/qs/.eslintrc                          |   38 [31m-[m
+ node_modules/qs/.github/FUNDING.yml                |   12 [31m-[m
+ node_modules/qs/.nycrc                             |   13 [31m-[m
+ node_modules/qs/CHANGELOG.md                       |  600 [31m--[m
+ node_modules/qs/LICENSE.md                         |   29 [31m-[m
+ node_modules/qs/README.md                          |  709 [31m--[m
+ node_modules/qs/dist/qs.js                         |   90 [31m-[m
+ node_modules/qs/lib/formats.js                     |   23 [31m-[m
+ node_modules/qs/lib/index.js                       |   11 [31m-[m
+ node_modules/qs/lib/parse.js                       |  296 [31m-[m
+ node_modules/qs/lib/stringify.js                   |  351 [31m-[m
+ node_modules/qs/lib/utils.js                       |  265 [31m-[m
+ node_modules/qs/package.json                       |   91 [31m-[m
+ node_modules/qs/test/empty-keys-cases.js           |  267 [31m-[m
+ node_modules/qs/test/parse.js                      | 1170 [31m---[m
+ node_modules/qs/test/stringify.js                  | 1298 [31m---[m
+ node_modules/qs/test/utils.js                      |  136 [31m-[m
+ node_modules/range-parser/HISTORY.md               |   56 [31m-[m
+ node_modules/range-parser/LICENSE                  |   23 [31m-[m
+ node_modules/range-parser/README.md                |   84 [31m-[m
+ node_modules/range-parser/index.js                 |  162 [31m-[m
+ node_modules/range-parser/package.json             |   44 [31m-[m
+ node_modules/raw-body/HISTORY.md                   |  308 [31m-[m
+ node_modules/raw-body/LICENSE                      |   22 [31m-[m
+ node_modules/raw-body/README.md                    |  223 [31m-[m
+ node_modules/raw-body/SECURITY.md                  |   24 [31m-[m
+ node_modules/raw-body/index.d.ts                   |   87 [31m-[m
+ node_modules/raw-body/index.js                     |  336 [31m-[m
+ node_modules/raw-body/package.json                 |   49 [31m-[m
+ node_modules/safe-buffer/LICENSE                   |   21 [31m-[m
+ node_modules/safe-buffer/README.md                 |  584 [31m--[m
+ node_modules/safe-buffer/index.d.ts                |  187 [31m-[m
+ node_modules/safe-buffer/index.js                  |   65 [31m-[m
+ node_modules/safe-buffer/package.json              |   51 [31m-[m
+ node_modules/safer-buffer/LICENSE                  |   21 [31m-[m
+ node_modules/safer-buffer/Porting-Buffer.md        |  268 [31m-[m
+ node_modules/safer-buffer/Readme.md                |  156 [31m-[m
+ node_modules/safer-buffer/dangerous.js             |   58 [31m-[m
+ node_modules/safer-buffer/package.json             |   34 [31m-[m
+ node_modules/safer-buffer/safer.js                 |   77 [31m-[m
+ node_modules/safer-buffer/tests.js                 |  406 [31m-[m
+ node_modules/send/HISTORY.md                       |  526 [31m--[m
+ node_modules/send/LICENSE                          |   23 [31m-[m
+ node_modules/send/README.md                        |  327 [31m-[m
+ node_modules/send/SECURITY.md                      |   24 [31m-[m
+ node_modules/send/index.js                         | 1142 [31m---[m
+ .../send/node_modules/encodeurl/HISTORY.md         |   14 [31m-[m
+ node_modules/send/node_modules/encodeurl/LICENSE   |   22 [31m-[m
+ node_modules/send/node_modules/encodeurl/README.md |  128 [31m-[m
+ node_modules/send/node_modules/encodeurl/index.js  |   60 [31m-[m
+ .../send/node_modules/encodeurl/package.json       |   40 [31m-[m
+ node_modules/send/node_modules/ms/index.js         |  162 [31m-[m
+ node_modules/send/node_modules/ms/license.md       |   21 [31m-[m
+ node_modules/send/node_modules/ms/package.json     |   38 [31m-[m
+ node_modules/send/node_modules/ms/readme.md        |   59 [31m-[m
+ node_modules/send/package.json                     |   62 [31m-[m
+ node_modules/serve-static/HISTORY.md               |  487 [31m--[m
+ node_modules/serve-static/LICENSE                  |   25 [31m-[m
+ node_modules/serve-static/README.md                |  257 [31m-[m
+ node_modules/serve-static/index.js                 |  209 [31m-[m
+ node_modules/serve-static/package.json             |   42 [31m-[m
+ node_modules/set-function-length/.eslintrc         |   27 [31m-[m
+ .../set-function-length/.github/FUNDING.yml        |   12 [31m-[m
+ node_modules/set-function-length/.nycrc            |   13 [31m-[m
+ node_modules/set-function-length/CHANGELOG.md      |   70 [31m-[m
+ node_modules/set-function-length/LICENSE           |   21 [31m-[m
+ node_modules/set-function-length/README.md         |   56 [31m-[m
+ node_modules/set-function-length/env.d.ts          |    9 [31m-[m
+ node_modules/set-function-length/env.js            |   25 [31m-[m
+ node_modules/set-function-length/index.d.ts        |    7 [31m-[m
+ node_modules/set-function-length/index.js          |   42 [31m-[m
+ node_modules/set-function-length/package.json      |  102 [31m-[m
+ node_modules/set-function-length/tsconfig.json     |    9 [31m-[m
+ node_modules/setprototypeof/LICENSE                |   13 [31m-[m
+ node_modules/setprototypeof/README.md              |   31 [31m-[m
+ node_modules/setprototypeof/index.d.ts             |    2 [31m-[m
+ node_modules/setprototypeof/index.js               |   17 [31m-[m
+ node_modules/setprototypeof/package.json           |   38 [31m-[m
+ node_modules/setprototypeof/test/index.js          |   24 [31m-[m
+ node_modules/side-channel/.editorconfig            |    9 [31m-[m
+ node_modules/side-channel/.eslintrc                |   11 [31m-[m
+ node_modules/side-channel/.github/FUNDING.yml      |   12 [31m-[m
+ node_modules/side-channel/.nycrc                   |   13 [31m-[m
+ node_modules/side-channel/CHANGELOG.md             |   95 [31m-[m
+ node_modules/side-channel/LICENSE                  |   21 [31m-[m
+ node_modules/side-channel/README.md                |    2 [31m-[m
+ node_modules/side-channel/index.d.ts               |   27 [31m-[m
+ node_modules/side-channel/index.js                 |  129 [31m-[m
+ node_modules/side-channel/package.json             |   84 [31m-[m
+ node_modules/side-channel/test/index.js            |   83 [31m-[m
+ node_modules/side-channel/tsconfig.json            |   50 [31m-[m
+ node_modules/statuses/HISTORY.md                   |   82 [31m-[m
+ node_modules/statuses/LICENSE                      |   23 [31m-[m
+ node_modules/statuses/README.md                    |  136 [31m-[m
+ node_modules/statuses/codes.json                   |   65 [31m-[m
+ node_modules/statuses/index.js                     |  146 [31m-[m
+ node_modules/statuses/package.json                 |   49 [31m-[m
+ node_modules/toidentifier/HISTORY.md               |    9 [31m-[m
+ node_modules/toidentifier/LICENSE                  |   21 [31m-[m
+ node_modules/toidentifier/README.md                |   61 [31m-[m
+ node_modules/toidentifier/index.js                 |   32 [31m-[m
+ node_modules/toidentifier/package.json             |   38 [31m-[m
+ node_modules/type-is/HISTORY.md                    |  259 [31m-[m
+ node_modules/type-is/LICENSE                       |   23 [31m-[m
+ node_modules/type-is/README.md                     |  170 [31m-[m
+ node_modules/type-is/index.js                      |  266 [31m-[m
+ node_modules/type-is/package.json                  |   45 [31m-[m
+ node_modules/unpipe/HISTORY.md                     |    4 [31m-[m
+ node_modules/unpipe/LICENSE                        |   22 [31m-[m
+ node_modules/unpipe/README.md                      |   43 [31m-[m
+ node_modules/unpipe/index.js                       |   69 [31m-[m
+ node_modules/unpipe/package.json                   |   27 [31m-[m
+ node_modules/utils-merge/.npmignore                |    9 [31m-[m
+ node_modules/utils-merge/LICENSE                   |   20 [31m-[m
+ node_modules/utils-merge/README.md                 |   34 [31m-[m
+ node_modules/utils-merge/index.js                  |   23 [31m-[m
+ node_modules/utils-merge/package.json              |   40 [31m-[m
+ node_modules/vary/HISTORY.md                       |   39 [31m-[m
+ node_modules/vary/LICENSE                          |   22 [31m-[m
+ node_modules/vary/README.md                        |  101 [31m-[m
+ node_modules/vary/index.js                         |  149 [31m-[m
+ node_modules/vary/package.json                     |   43 [31m-[m
+ 519 files changed, 64403 deletions(-)
+
+[33mcommit 67a7823e9d1719c21dee0420aa87e45448dc4056[m
+Author: Ivans991 <isotoriv@estudiante.ibero.edu.co>
+Date:   Fri Nov 22 13:56:21 2024 -0500
+
+    Agrega archivo .gitignore para ignorar node_modules y archivos innecesarios
+
+ .gitignore | 4 [32m++++[m
+ 1 file changed, 4 insertions(+)
+
+[33mcommit 5f46953eb15af4fb26dd8dd7be8eb4da35772e2b[m
+Author: Ivans991 <isotoriv@estudiante.ibero.edu.co>
+Date:   Fri Nov 22 13:54:26 2024 -0500
+
+    Agrega node_modules a .gitignore y actualiza package.json
+
+ package-lock.json | 3 [32m++[m[31m-[m
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+[33mcommit d3e9d768264cda2093ac4e847b556432606b3dcf[m
+Author: Ivans991 <isotoriv@estudiante.ibero.edu.co>
+Date:   Fri Nov 22 13:51:30 2024 -0500
+
+    Agrega package.json
+
+ package.json | 17 [32m+++++++++++[m[31m------[m
+ 1 file changed, 11 insertions(+), 6 deletions(-)
+
+[33mcommit a9c1bc4c4f15a485a817d34dc0ffc94b9ca9dd4f[m
+Author: Ivans991 <isotoriv@estudiante.ibero.edu.co>
+Date:   Fri Nov 22 13:31:51 2024 -0500
+
+    Primer commit - Proyecto Virtual Olympus
+
+ LICENSE                                            |   21 [32m+[m
+ README.md                                          |    1 [32m+[m
+ node_modules/.bin/mime                             |   16 [32m+[m
+ node_modules/.bin/mime.cmd                         |   17 [32m+[m
+ node_modules/.bin/mime.ps1                         |   28 [32m+[m
+ node_modules/.package-lock.json                    |  765 [32m++[m
+ node_modules/accepts/HISTORY.md                    |  243 [32m+[m
+ node_modules/accepts/LICENSE                       |   23 [32m+[m
+ node_modules/accepts/README.md                     |  140 [32m+[m
+ node_modules/accepts/index.js                      |  238 [32m+[m
+ node_modules/accepts/package.json                  |   47 [32m+[m
+ node_modules/array-flatten/LICENSE                 |   21 [32m+[m
+ node_modules/array-flatten/README.md               |   43 [32m+[m
+ node_modules/array-flatten/array-flatten.js        |   64 [32m+[m
+ node_modules/array-flatten/package.json            |   39 [32m+[m
+ node_modules/body-parser/HISTORY.md                |  672 [32m++[m
+ node_modules/body-parser/LICENSE                   |   23 [32m+[m
+ node_modules/body-parser/README.md                 |  476 [32m++[m
+ node_modules/body-parser/SECURITY.md               |   25 [32m+[m
+ node_modules/body-parser/index.js                  |  156 [32m+[m
+ node_modules/body-parser/lib/read.js               |  205 [32m+[m
+ node_modules/body-parser/lib/types/json.js         |  247 [32m+[m
+ node_modules/body-parser/lib/types/raw.js          |  101 [32m+[m
+ node_modules/body-parser/lib/types/text.js         |  121 [32m+[m
+ node_modules/body-parser/lib/types/urlencoded.js   |  307 [32m+[m
+ node_modules/body-parser/package.json              |   56 [32m+[m
+ node_modules/bytes/History.md                      |   97 [32m+[m
+ node_modules/bytes/LICENSE                         |   23 [32m+[m
+ node_modules/bytes/Readme.md                       |  152 [32m+[m
+ node_modules/bytes/index.js                        |  170 [32m+[m
+ node_modules/bytes/package.json                    |   42 [32m+[m
+ node_modules/call-bind/.eslintignore               |    1 [32m+[m
+ node_modules/call-bind/.eslintrc                   |   16 [32m+[m
+ node_modules/call-bind/.github/FUNDING.yml         |   12 [32m+[m
+ node_modules/call-bind/.nycrc                      |    9 [32m+[m
+ node_modules/call-bind/CHANGELOG.md                |   93 [32m+[m
+ node_modules/call-bind/LICENSE                     |   21 [32m+[m
+ node_modules/call-bind/README.md                   |   64 [32m+[m
+ node_modules/call-bind/callBound.js                |   15 [32m+[m
+ node_modules/call-bind/index.js                    |   35 [32m+[m
+ node_modules/call-bind/package.json                |   95 [32m+[m
+ node_modules/call-bind/test/callBound.js           |   54 [32m+[m
+ node_modules/call-bind/test/index.js               |   80 [32m+[m
+ node_modules/content-disposition/HISTORY.md        |   60 [32m+[m
+ node_modules/content-disposition/LICENSE           |   22 [32m+[m
+ node_modules/content-disposition/README.md         |  142 [32m+[m
+ node_modules/content-disposition/index.js          |  458 [32m++[m
+ node_modules/content-disposition/package.json      |   44 [32m+[m
+ node_modules/content-type/HISTORY.md               |   29 [32m+[m
+ node_modules/content-type/LICENSE                  |   22 [32m+[m
+ node_modules/content-type/README.md                |   94 [32m+[m
+ node_modules/content-type/index.js                 |  225 [32m+[m
+ node_modules/content-type/package.json             |   42 [32m+[m
+ node_modules/cookie-signature/.npmignore           |    4 [32m+[m
+ node_modules/cookie-signature/History.md           |   38 [32m+[m
+ node_modules/cookie-signature/Readme.md            |   42 [32m+[m
+ node_modules/cookie-signature/index.js             |   51 [32m+[m
+ node_modules/cookie-signature/package.json         |   18 [32m+[m
+ node_modules/cookie/LICENSE                        |   24 [32m+[m
+ node_modules/cookie/README.md                      |  317 [32m+[m
+ node_modules/cookie/SECURITY.md                    |   25 [32m+[m
+ node_modules/cookie/index.js                       |  334 [32m+[m
+ node_modules/cookie/package.json                   |   44 [32m+[m
+ node_modules/debug/.coveralls.yml                  |    1 [32m+[m
+ node_modules/debug/.eslintrc                       |   11 [32m+[m
+ node_modules/debug/.npmignore                      |    9 [32m+[m
+ node_modules/debug/.travis.yml                     |   14 [32m+[m
+ node_modules/debug/CHANGELOG.md                    |  362 [32m+[m
+ node_modules/debug/LICENSE                         |   19 [32m+[m
+ node_modules/debug/Makefile                        |   50 [32m+[m
+ node_modules/debug/README.md                       |  312 [32m+[m
+ node_modules/debug/component.json                  |   19 [32m+[m
+ node_modules/debug/karma.conf.js                   |   70 [32m+[m
+ node_modules/debug/node.js                         |    1 [32m+[m
+ node_modules/debug/package.json                    |   49 [32m+[m
+ node_modules/debug/src/browser.js                  |  185 [32m+[m
+ node_modules/debug/src/debug.js                    |  202 [32m+[m
+ node_modules/debug/src/index.js                    |   10 [32m+[m
+ node_modules/debug/src/inspector-log.js            |   15 [32m+[m
+ node_modules/debug/src/node.js                     |  248 [32m+[m
+ node_modules/define-data-property/.eslintrc        |   24 [32m+[m
+ .../define-data-property/.github/FUNDING.yml       |   12 [32m+[m
+ node_modules/define-data-property/.nycrc           |   13 [32m+[m
+ node_modules/define-data-property/CHANGELOG.md     |   70 [32m+[m
+ node_modules/define-data-property/LICENSE          |   21 [32m+[m
+ node_modules/define-data-property/README.md        |   67 [32m+[m
+ node_modules/define-data-property/index.d.ts       |   12 [32m+[m
+ node_modules/define-data-property/index.js         |   56 [32m+[m
+ node_modules/define-data-property/package.json     |  106 [32m+[m
+ node_modules/define-data-property/test/index.js    |  392 [32m+[m
+ node_modules/define-data-property/tsconfig.json    |   59 [32m+[m
+ node_modules/depd/History.md                       |  103 [32m+[m
+ node_modules/depd/LICENSE                          |   22 [32m+[m
+ node_modules/depd/Readme.md                        |  280 [32m+[m
+ node_modules/depd/index.js                         |  538 [32m++[m
+ node_modules/depd/lib/browser/index.js             |   77 [32m+[m
+ node_modules/depd/package.json                     |   45 [32m+[m
+ node_modules/destroy/LICENSE                       |   23 [32m+[m
+ node_modules/destroy/README.md                     |   63 [32m+[m
+ node_modules/destroy/index.js                      |  209 [32m+[m
+ node_modules/destroy/package.json                  |   48 [32m+[m
+ node_modules/ee-first/LICENSE                      |   22 [32m+[m
+ node_modules/ee-first/README.md                    |   80 [32m+[m
+ node_modules/ee-first/index.js                     |   95 [32m+[m
+ node_modules/ee-first/package.json                 |   29 [32m+[m
+ node_modules/encodeurl/LICENSE                     |   22 [32m+[m
+ node_modules/encodeurl/README.md                   |  109 [32m+[m
+ node_modules/encodeurl/index.js                    |   60 [32m+[m
+ node_modules/encodeurl/package.json                |   40 [32m+[m
+ node_modules/es-define-property/.eslintrc          |   13 [32m+[m
+ .../es-define-property/.github/FUNDING.yml         |   12 [32m+[m
+ node_modules/es-define-property/.nycrc             |    9 [32m+[m
+ node_modules/es-define-property/CHANGELOG.md       |   15 [32m+[m
+ node_modules/es-define-property/LICENSE            |   21 [32m+[m
+ node_modules/es-define-property/README.md          |   49 [32m+[m
+ node_modules/es-define-property/index.d.ts         |    3 [32m+[m
+ node_modules/es-define-property/index.js           |   16 [32m+[m
+ node_modules/es-define-property/package.json       |   81 [32m+[m
+ node_modules/es-define-property/test/index.js      |   55 [32m+[m
+ node_modules/es-define-property/tsconfig.json      |   50 [32m+[m
+ node_modules/es-errors/.eslintrc                   |    5 [32m+[m
+ node_modules/es-errors/.github/FUNDING.yml         |   12 [32m+[m
+ node_modules/es-errors/CHANGELOG.md                |   40 [32m+[m
+ node_modules/es-errors/LICENSE                     |   21 [32m+[m
+ node_modules/es-errors/README.md                   |   55 [32m+[m
+ node_modules/es-errors/eval.d.ts                   |    3 [32m+[m
+ node_modules/es-errors/eval.js                     |    4 [32m+[m
+ node_modules/es-errors/index.d.ts                  |    3 [32m+[m
+ node_modules/es-errors/index.js                    |    4 [32m+[m
+ node_modules/es-errors/package.json                |   80 [32m+[m
+ node_modules/es-errors/range.d.ts                  |    3 [32m+[m
+ node_modules/es-errors/range.js                    |    4 [32m+[m
+ node_modules/es-errors/ref.d.ts                    |    3 [32m+[m
+ node_modules/es-errors/ref.js                      |    4 [32m+[m
+ node_modules/es-errors/syntax.d.ts                 |    3 [32m+[m
+ node_modules/es-errors/syntax.js                   |    4 [32m+[m
+ node_modules/es-errors/test/index.js               |   19 [32m+[m
+ node_modules/es-errors/tsconfig.json               |   49 [32m+[m
+ node_modules/es-errors/type.d.ts                   |    3 [32m+[m
+ node_modules/es-errors/type.js                     |    4 [32m+[m
+ node_modules/es-errors/uri.d.ts                    |    3 [32m+[m
+ node_modules/es-errors/uri.js                      |    4 [32m+[m
+ node_modules/escape-html/LICENSE                   |   24 [32m+[m
+ node_modules/escape-html/Readme.md                 |   43 [32m+[m
+ node_modules/escape-html/index.js                  |   78 [32m+[m
+ node_modules/escape-html/package.json              |   24 [32m+[m
+ node_modules/etag/HISTORY.md                       |   83 [32m+[m
+ node_modules/etag/LICENSE                          |   22 [32m+[m
+ node_modules/etag/README.md                        |  159 [32m+[m
+ node_modules/etag/index.js                         |  131 [32m+[m
+ node_modules/etag/package.json                     |   47 [32m+[m
+ node_modules/express/History.md                    | 3647 [32m+++++++++[m
+ node_modules/express/LICENSE                       |   24 [32m+[m
+ node_modules/express/Readme.md                     |  260 [32m+[m
+ node_modules/express/index.js                      |   11 [32m+[m
+ node_modules/express/lib/application.js            |  661 [32m++[m
+ node_modules/express/lib/express.js                |  116 [32m+[m
+ node_modules/express/lib/middleware/init.js        |   43 [32m+[m
+ node_modules/express/lib/middleware/query.js       |   47 [32m+[m
+ node_modules/express/lib/request.js                |  525 [32m++[m
+ node_modules/express/lib/response.js               | 1179 [32m+++[m
+ node_modules/express/lib/router/index.js           |  673 [32m++[m
+ node_modules/express/lib/router/layer.js           |  181 [32m+[m
+ node_modules/express/lib/router/route.js           |  230 [32m+[m
+ node_modules/express/lib/utils.js                  |  303 [32m+[m
+ node_modules/express/lib/view.js                   |  182 [32m+[m
+ node_modules/express/package.json                  |   98 [32m+[m
+ node_modules/finalhandler/HISTORY.md               |  210 [32m+[m
+ node_modules/finalhandler/LICENSE                  |   22 [32m+[m
+ node_modules/finalhandler/README.md                |  147 [32m+[m
+ node_modules/finalhandler/SECURITY.md              |   25 [32m+[m
+ node_modules/finalhandler/index.js                 |  341 [32m+[m
+ node_modules/finalhandler/package.json             |   47 [32m+[m
+ node_modules/forwarded/HISTORY.md                  |   21 [32m+[m
+ node_modules/forwarded/LICENSE                     |   22 [32m+[m
+ node_modules/forwarded/README.md                   |   57 [32m+[m
+ node_modules/forwarded/index.js                    |   90 [32m+[m
+ node_modules/forwarded/package.json                |   45 [32m+[m
+ node_modules/fresh/HISTORY.md                      |   70 [32m+[m
+ node_modules/fresh/LICENSE                         |   23 [32m+[m
+ node_modules/fresh/README.md                       |  119 [32m+[m
+ node_modules/fresh/index.js                        |  137 [32m+[m
+ node_modules/fresh/package.json                    |   46 [32m+[m
+ node_modules/function-bind/.eslintrc               |   21 [32m+[m
+ node_modules/function-bind/.github/FUNDING.yml     |   12 [32m+[m
+ node_modules/function-bind/.github/SECURITY.md     |    3 [32m+[m
+ node_modules/function-bind/.nycrc                  |   13 [32m+[m
+ node_modules/function-bind/CHANGELOG.md            |  136 [32m+[m
+ node_modules/function-bind/LICENSE                 |   20 [32m+[m
+ node_modules/function-bind/README.md               |   46 [32m+[m
+ node_modules/function-bind/implementation.js       |   84 [32m+[m
+ node_modules/function-bind/index.js                |    5 [32m+[m
+ node_modules/function-bind/package.json            |   87 [32m+[m
+ node_modules/function-bind/test/.eslintrc          |    9 [32m+[m
+ node_modules/function-bind/test/index.js           |  252 [32m+[m
+ node_modules/get-intrinsic/.eslintrc               |   38 [32m+[m
+ node_modules/get-intrinsic/.github/FUNDING.yml     |   12 [32m+[m
+ node_modules/get-intrinsic/.nycrc                  |    9 [32m+[m
+ node_modules/get-intrinsic/CHANGELOG.md            |  143 [32m+[m
+ node_modules/get-intrinsic/LICENSE                 |   21 [32m+[m
+ node_modules/get-intrinsic/README.md               |   71 [32m+[m
+ node_modules/get-intrinsic/index.js                |  359 [32m+[m
+ node_modules/get-intrinsic/package.json            |   93 [32m+[m
+ node_modules/get-intrinsic/test/GetIntrinsic.js    |  274 [32m+[m
+ node_modules/gopd/.eslintrc                        |   16 [32m+[m
+ node_modules/gopd/.github/FUNDING.yml              |   12 [32m+[m
+ node_modules/gopd/CHANGELOG.md                     |   25 [32m+[m
+ node_modules/gopd/LICENSE                          |   21 [32m+[m
+ node_modules/gopd/README.md                        |   40 [32m+[m
+ node_modules/gopd/index.js                         |   16 [32m+[m
+ node_modules/gopd/package.json                     |   71 [32m+[m
+ node_modules/gopd/test/index.js                    |   35 [32m+[m
+ node_modules/has-property-descriptors/.eslintrc    |   13 [32m+[m
+ .../has-property-descriptors/.github/FUNDING.yml   |   12 [32m+[m
+ node_modules/has-property-descriptors/.nycrc       |    9 [32m+[m
+ node_modules/has-property-descriptors/CHANGELOG.md |   35 [32m+[m
+ node_modules/has-property-descriptors/LICENSE      |   21 [32m+[m
+ node_modules/has-property-descriptors/README.md    |   43 [32m+[m
+ node_modules/has-property-descriptors/index.js     |   22 [32m+[m
+ node_modules/has-property-descriptors/package.json |   77 [32m+[m
+ .../has-property-descriptors/test/index.js         |   57 [32m+[m
+ node_modules/has-proto/.eslintrc                   |    5 [32m+[m
+ node_modules/has-proto/.github/FUNDING.yml         |   12 [32m+[m
+ node_modules/has-proto/CHANGELOG.md                |   38 [32m+[m
+ node_modules/has-proto/LICENSE                     |   21 [32m+[m
+ node_modules/has-proto/README.md                   |   38 [32m+[m
+ node_modules/has-proto/index.d.ts                  |    3 [32m+[m
+ node_modules/has-proto/index.js                    |   15 [32m+[m
+ node_modules/has-proto/package.json                |   78 [32m+[m
+ node_modules/has-proto/test/index.js               |   19 [32m+[m
+ node_modules/has-proto/tsconfig.json               |   49 [32m+[m
+ node_modules/has-symbols/.eslintrc                 |   11 [32m+[m
+ node_modules/has-symbols/.github/FUNDING.yml       |   12 [32m+[m
+ node_modules/has-symbols/.nycrc                    |    9 [32m+[m
+ node_modules/has-symbols/CHANGELOG.md              |   75 [32m+[m
+ node_modules/has-symbols/LICENSE                   |   21 [32m+[m
+ node_modules/has-symbols/README.md                 |   46 [32m+[m
+ node_modules/has-symbols/index.js                  |   13 [32m+[m
+ node_modules/has-symbols/package.json              |  101 [32m+[m
+ node_modules/has-symbols/shams.js                  |   42 [32m+[m
+ node_modules/has-symbols/test/index.js             |   22 [32m+[m
+ node_modules/has-symbols/test/shams/core-js.js     |   28 [32m+[m
+ .../test/shams/get-own-property-symbols.js         |   28 [32m+[m
+ node_modules/has-symbols/test/tests.js             |   56 [32m+[m
+ node_modules/hasown/.eslintrc                      |    5 [32m+[m
+ node_modules/hasown/.github/FUNDING.yml            |   12 [32m+[m
+ node_modules/hasown/.nycrc                         |   13 [32m+[m
+ node_modules/hasown/CHANGELOG.md                   |   40 [32m+[m
+ node_modules/hasown/LICENSE                        |   21 [32m+[m
+ node_modules/hasown/README.md                      |   40 [32m+[m
+ node_modules/hasown/index.d.ts                     |    3 [32m+[m
+ node_modules/hasown/index.js                       |    8 [32m+[m
+ node_modules/hasown/package.json                   |   92 [32m+[m
+ node_modules/hasown/tsconfig.json                  |    6 [32m+[m
+ node_modules/http-errors/HISTORY.md                |  180 [32m+[m
+ node_modules/http-errors/LICENSE                   |   23 [32m+[m
+ node_modules/http-errors/README.md                 |  169 [32m+[m
+ node_modules/http-errors/index.js                  |  289 [32m+[m
+ node_modules/http-errors/package.json              |   50 [32m+[m
+ node_modules/iconv-lite/Changelog.md               |  162 [32m+[m
+ node_modules/iconv-lite/LICENSE                    |   21 [32m+[m
+ node_modules/iconv-lite/README.md                  |  156 [32m+[m
+ node_modules/iconv-lite/encodings/dbcs-codec.js    |  555 [32m++[m
+ node_modules/iconv-lite/encodings/dbcs-data.js     |  176 [32m+[m
+ node_modules/iconv-lite/encodings/index.js         |   22 [32m+[m
+ node_modules/iconv-lite/encodings/internal.js      |  188 [32m+[m
+ node_modules/iconv-lite/encodings/sbcs-codec.js    |   72 [32m+[m
+ .../iconv-lite/encodings/sbcs-data-generated.js    |  451 [32m++[m
+ node_modules/iconv-lite/encodings/sbcs-data.js     |  174 [32m+[m
+ .../iconv-lite/encodings/tables/big5-added.json    |  122 [32m+[m
+ .../iconv-lite/encodings/tables/cp936.json         |  264 [32m+[m
+ .../iconv-lite/encodings/tables/cp949.json         |  273 [32m+[m
+ .../iconv-lite/encodings/tables/cp950.json         |  177 [32m+[m
+ .../iconv-lite/encodings/tables/eucjp.json         |  182 [32m+[m
+ .../encodings/tables/gb18030-ranges.json           |    1 [32m+[m
+ .../iconv-lite/encodings/tables/gbk-added.json     |   55 [32m+[m
+ .../iconv-lite/encodings/tables/shiftjis.json      |  125 [32m+[m
+ node_modules/iconv-lite/encodings/utf16.js         |  177 [32m+[m
+ node_modules/iconv-lite/encodings/utf7.js          |  290 [32m+[m
+ node_modules/iconv-lite/lib/bom-handling.js        |   52 [32m+[m
+ node_modules/iconv-lite/lib/extend-node.js         |  217 [32m+[m
+ node_modules/iconv-lite/lib/index.d.ts             |   24 [32m+[m
+ node_modules/iconv-lite/lib/index.js               |  153 [32m+[m
+ node_modules/iconv-lite/lib/streams.js             |  121 [32m+[m
+ node_modules/iconv-lite/package.json               |   46 [32m+[m
+ node_modules/inherits/LICENSE                      |   16 [32m+[m
+ node_modules/inherits/README.md                    |   42 [32m+[m
+ node_modules/inherits/inherits.js                  |    9 [32m+[m
+ node_modules/inherits/inherits_browser.js          |   27 [32m+[m
+ node_modules/inherits/package.json                 |   29 [32m+[m
+ node_modules/ipaddr.js/LICENSE                     |   19 [32m+[m
+ node_modules/ipaddr.js/README.md                   |  233 [32m+[m
+ node_modules/ipaddr.js/ipaddr.min.js               |    1 [32m+[m
+ node_modules/ipaddr.js/lib/ipaddr.js               |  673 [32m++[m
+ node_modules/ipaddr.js/lib/ipaddr.js.d.ts          |   68 [32m+[m
+ node_modules/ipaddr.js/package.json                |   35 [32m+[m
+ node_modules/media-typer/HISTORY.md                |   22 [32m+[m
+ node_modules/media-typer/LICENSE                   |   22 [32m+[m
+ node_modules/media-typer/README.md                 |   81 [32m+[m
+ node_modules/media-typer/index.js                  |  270 [32m+[m
+ node_modules/media-typer/package.json              |   26 [32m+[m
+ node_modules/merge-descriptors/HISTORY.md          |   21 [32m+[m
+ node_modules/merge-descriptors/LICENSE             |   23 [32m+[m
+ node_modules/merge-descriptors/README.md           |   49 [32m+[m
+ node_modules/merge-descriptors/index.js            |   60 [32m+[m
+ node_modules/merge-descriptors/package.json        |   39 [32m+[m
+ node_modules/methods/HISTORY.md                    |   29 [32m+[m
+ node_modules/methods/LICENSE                       |   24 [32m+[m
+ node_modules/methods/README.md                     |   51 [32m+[m
+ node_modules/methods/index.js                      |   69 [32m+[m
+ node_modules/methods/package.json                  |   36 [32m+[m
+ node_modules/mime-db/HISTORY.md                    |  507 [32m++[m
+ node_modules/mime-db/LICENSE                       |   23 [32m+[m
+ node_modules/mime-db/README.md                     |  100 [32m+[m
+ node_modules/mime-db/db.json                       | 8519 [32m++++++++++++++++++++[m
+ node_modules/mime-db/index.js                      |   12 [32m+[m
+ node_modules/mime-db/package.json                  |   60 [32m+[m
+ node_modules/mime-types/HISTORY.md                 |  397 [32m+[m
+ node_modules/mime-types/LICENSE                    |   23 [32m+[m
+ node_modules/mime-types/README.md                  |  113 [32m+[m
+ node_modules/mime-types/index.js                   |  188 [32m+[m
+ node_modules/mime-types/package.json               |   44 [32m+[m
+ node_modules/mime/.npmignore                       |    0
+ node_modules/mime/CHANGELOG.md                     |  164 [32m+[m
+ node_modules/mime/LICENSE                          |   21 [32m+[m
+ node_modules/mime/README.md                        |   90 [32m+[m
+ node_modules/mime/cli.js                           |    8 [32m+[m
+ node_modules/mime/mime.js                          |  108 [32m+[m
+ node_modules/mime/package.json                     |   44 [32m+[m
+ node_modules/mime/src/build.js                     |   53 [32m+[m
+ node_modules/mime/src/test.js                      |   60 [32m+[m
+ node_modules/mime/types.json                       |    1 [32m+[m
+ node_modules/ms/index.js                           |  152 [32m+[m
+ node_modules/ms/license.md                         |   21 [32m+[m
+ node_modules/ms/package.json                       |   37 [32m+[m
+ node_modules/ms/readme.md                          |   51 [32m+[m
+ node_modules/negotiator/HISTORY.md                 |  108 [32m+[m
+ node_modules/negotiator/LICENSE                    |   24 [32m+[m
+ node_modules/negotiator/README.md                  |  203 [32m+[m
+ node_modules/negotiator/index.js                   |   82 [32m+[m
+ node_modules/negotiator/lib/charset.js             |  169 [32m+[m
+ node_modules/negotiator/lib/encoding.js            |  184 [32m+[m
+ node_modules/negotiator/lib/language.js            |  179 [32m+[m
+ node_modules/negotiator/lib/mediaType.js           |  294 [32m+[m
+ node_modules/negotiator/package.json               |   42 [32m+[m
+ node_modules/object-inspect/.eslintrc              |   53 [32m+[m
+ node_modules/object-inspect/.github/FUNDING.yml    |   12 [32m+[m
+ node_modules/object-inspect/.nycrc                 |   13 [32m+[m
+ node_modules/object-inspect/CHANGELOG.md           |  416 [32m+[m
+ node_modules/object-inspect/LICENSE                |   21 [32m+[m
+ node_modules/object-inspect/example/all.js         |   23 [32m+[m
+ node_modules/object-inspect/example/circular.js    |    6 [32m+[m
+ node_modules/object-inspect/example/fn.js          |    5 [32m+[m
+ node_modules/object-inspect/example/inspect.js     |   10 [32m+[m
+ node_modules/object-inspect/index.js               |  541 [32m++[m
+ node_modules/object-inspect/package-support.json   |   20 [32m+[m
+ node_modules/object-inspect/package.json           |  104 [32m+[m
+ node_modules/object-inspect/readme.markdown        |   84 [32m+[m
+ node_modules/object-inspect/test-core-js.js        |   26 [32m+[m
+ node_modules/object-inspect/test/bigint.js         |   58 [32m+[m
+ node_modules/object-inspect/test/browser/dom.js    |   15 [32m+[m
+ node_modules/object-inspect/test/circular.js       |   16 [32m+[m
+ node_modules/object-inspect/test/deep.js           |   12 [32m+[m
+ node_modules/object-inspect/test/element.js        |   53 [32m+[m
+ node_modules/object-inspect/test/err.js            |   48 [32m+[m
+ node_modules/object-inspect/test/fakes.js          |   29 [32m+[m
+ node_modules/object-inspect/test/fn.js             |   76 [32m+[m
+ node_modules/object-inspect/test/global.js         |   17 [32m+[m
+ node_modules/object-inspect/test/has.js            |   15 [32m+[m
+ node_modules/object-inspect/test/holes.js          |   15 [32m+[m
+ node_modules/object-inspect/test/indent-option.js  |  271 [32m+[m
+ node_modules/object-inspect/test/inspect.js        |  139 [32m+[m
+ node_modules/object-inspect/test/lowbyte.js        |   12 [32m+[m
+ node_modules/object-inspect/test/number.js         |   58 [32m+[m
+ node_modules/object-inspect/test/quoteStyle.js     |   26 [32m+[m
+ node_modules/object-inspect/test/toStringTag.js    |   40 [32m+[m
+ node_modules/object-inspect/test/undef.js          |   12 [32m+[m
+ node_modules/object-inspect/test/values.js         |  211 [32m+[m
+ node_modules/object-inspect/util.inspect.js        |    1 [32m+[m
+ node_modules/on-finished/HISTORY.md                |   98 [32m+[m
+ node_modules/on-finished/LICENSE                   |   23 [32m+[m
+ node_modules/on-finished/README.md                 |  162 [32m+[m
+ node_modules/on-finished/index.js                  |  234 [32m+[m
+ node_modules/on-finished/package.json              |   39 [32m+[m
+ node_modules/parseurl/HISTORY.md                   |   58 [32m+[m
+ node_modules/parseurl/LICENSE                      |   24 [32m+[m
+ node_modules/parseurl/README.md                    |  133 [32m+[m
+ node_modules/parseurl/index.js                     |  158 [32m+[m
+ node_modules/parseurl/package.json                 |   40 [32m+[m
+ node_modules/path-to-regexp/LICENSE                |   21 [32m+[m
+ node_modules/path-to-regexp/Readme.md              |   35 [32m+[m
+ node_modules/path-to-regexp/index.js               |  146 [32m+[m
+ node_modules/path-to-regexp/package.json           |   30 [32m+[m
+ node_modules/proxy-addr/HISTORY.md                 |  161 [32m+[m
+ node_modules/proxy-addr/LICENSE                    |   22 [32m+[m
+ node_modules/proxy-addr/README.md                  |  139 [32m+[m
+ node_modules/proxy-addr/index.js                   |  327 [32m+[m
+ node_modules/proxy-addr/package.json               |   47 [32m+[m
+ node_modules/qs/.editorconfig                      |   46 [32m+[m
+ node_modules/qs/.eslintrc                          |   38 [32m+[m
+ node_modules/qs/.github/FUNDING.yml                |   12 [32m+[m
+ node_modules/qs/.nycrc                             |   13 [32m+[m
+ node_modules/qs/CHANGELOG.md                       |  600 [32m++[m
+ node_modules/qs/LICENSE.md                         |   29 [32m+[m
+ node_modules/qs/README.md                          |  709 [32m++[m
+ node_modules/qs/dist/qs.js                         |   90 [32m+[m
+ node_modules/qs/lib/formats.js                     |   23 [32m+[m
+ node_modules/qs/lib/index.js                       |   11 [32m+[m
+ node_modules/qs/lib/parse.js                       |  296 [32m+[m
+ node_modules/qs/lib/stringify.js                   |  351 [32m+[m
+ node_modules/qs/lib/utils.js                       |  265 [32m+[m
+ node_modules/qs/package.json                       |   91 [32m+[m
+ node_modules/qs/test/empty-keys-cases.js           |  267 [32m+[m
+ node_modules/qs/test/parse.js                      | 1170 [32m+++[m
+ node_modules/qs/test/stringify.js                  | 1298 [32m+++[m
+ node_modules/qs/test/utils.js                      |  136 [32m+[m
+ node_modules/range-parser/HISTORY.md               |   56 [32m+[m
+ node_modules/range-parser/LICENSE                  |   23 [32m+[m
+ node_modules/range-parser/README.md                |   84 [32m+[m
+ node_modules/range-parser/index.js                 |  162 [32m+[m
+ node_modules/range-parser/package.json             |   44 [32m+[m
+ node_modules/raw-body/HISTORY.md                   |  308 [32m+[m
+ node_modules/raw-body/LICENSE                      |   22 [32m+[m
+ node_modules/raw-body/README.md                    |  223 [32m+[m
+ node_modules/raw-body/SECURITY.md                  |   24 [32m+[m
+ node_modules/raw-body/index.d.ts                   |   87 [32m+[m
+ node_modules/raw-body/index.js                     |  336 [32m+[m
+ node_modules/raw-body/package.json                 |   49 [32m+[m
+ node_modules/safe-buffer/LICENSE                   |   21 [32m+[m
+ node_modules/safe-buffer/README.md                 |  584 [32m++[m
+ node_modules/safe-buffer/index.d.ts                |  187 [32m+[m
+ node_modules/safe-buffer/index.js                  |   65 [32m+[m
+ node_modules/safe-buffer/package.json              |   51 [32m+[m
+ node_modules/safer-buffer/LICENSE                  |   21 [32m+[m
+ node_modules/safer-buffer/Porting-Buffer.md        |  268 [32m+[m
+ node_modules/safer-buffer/Readme.md                |  156 [32m+[m
+ node_modules/safer-buffer/dangerous.js             |   58 [32m+[m
+ node_modules/safer-buffer/package.json             |   34 [32m+[m
+ node_modules/safer-buffer/safer.js                 |   77 [32m+[m
+ node_modules/safer-buffer/tests.js                 |  406 [32m+[m
+ node_modules/send/HISTORY.md                       |  526 [32m++[m
+ node_modules/send/LICENSE                          |   23 [32m+[m
+ node_modules/send/README.md                        |  327 [32m+[m
+ node_modules/send/SECURITY.md                      |   24 [32m+[m
+ node_modules/send/index.js                         | 1142 [32m+++[m
+ .../send/node_modules/encodeurl/HISTORY.md         |   14 [32m+[m
+ node_modules/send/node_modules/encodeurl/LICENSE   |   22 [32m+[m
+ node_modules/send/node_modules/encodeurl/README.md |  128 [32m+[m
+ node_modules/send/node_modules/encodeurl/index.js  |   60 [32m+[m
+ .../send/node_modules/encodeurl/package.json       |   40 [32m+[m
+ node_modules/send/node_modules/ms/index.js         |  162 [32m+[m
+ node_modules/send/node_modules/ms/license.md       |   21 [32m+[m
+ node_modules/send/node_modules/ms/package.json     |   38 [32m+[m
+ node_modules/send/node_modules/ms/readme.md        |   59 [32m+[m
+ node_modules/send/package.json                     |   62 [32m+[m
+ node_modules/serve-static/HISTORY.md               |  487 [32m++[m
+ node_modules/serve-static/LICENSE                  |   25 [32m+[m
+ node_modules/serve-static/README.md                |  257 [32m+[m
+ node_modules/serve-static/index.js                 |  209 [32m+[m
+ node_modules/serve-static/package.json             |   42 [32m+[m
+ node_modules/set-function-length/.eslintrc         |   27 [32m+[m
+ .../set-function-length/.github/FUNDING.yml        |   12 [32m+[m
+ node_modules/set-function-length/.nycrc            |   13 [32m+[m
+ node_modules/set-function-length/CHANGELOG.md      |   70 [32m+[m
+ node_modules/set-function-length/LICENSE           |   21 [32m+[m
+ node_modules/set-function-length/README.md         |   56 [32m+[m
+ node_modules/set-function-length/env.d.ts          |    9 [32m+[m
+ node_modules/set-function-length/env.js            |   25 [32m+[m
+ node_modules/set-function-length/index.d.ts        |    7 [32m+[m
+ node_modules/set-function-length/index.js          |   42 [32m+[m
+ node_modules/set-function-length/package.json      |  102 [32m+[m
+ node_modules/set-function-length/tsconfig.json     |    9 [32m+[m
+ node_modules/setprototypeof/LICENSE                |   13 [32m+[m
+ node_modules/setprototypeof/README.md              |   31 [32m+[m
+ node_modules/setprototypeof/index.d.ts             |    2 [32m+[m
+ node_modules/setprototypeof/index.js               |   17 [32m+[m
+ node_modules/setprototypeof/package.json           |   38 [32m+[m
+ node_modules/setprototypeof/test/index.js          |   24 [32m+[m
+ node_modules/side-channel/.editorconfig            |    9 [32m+[m
+ node_modules/side-channel/.eslintrc                |   11 [32m+[m
+ node_modules/side-channel/.github/FUNDING.yml      |   12 [32m+[m
+ node_modules/side-channel/.nycrc                   |   13 [32m+[m
+ node_modules/side-channel/CHANGELOG.md             |   95 [32m+[m
+ node_modules/side-channel/LICENSE                  |   21 [32m+[m
+ node_modules/side-channel/README.md                |    2 [32m+[m
+ node_modules/side-channel/index.d.ts               |   27 [32m+[m
+ node_modules/side-channel/index.js                 |  129 [32m+[m
+ node_modules/side-channel/package.json             |   84 [32m+[m
+ node_modules/side-channel/test/index.js            |   83 [32m+[m
+ node_modules/side-channel/tsconfig.json            |   50 [32m+[m
+ node_modules/statuses/HISTORY.md                   |   82 [32m+[m
+ node_modules/statuses/LICENSE                      |   23 [32m+[m
+ node_modules/statuses/README.md                    |  136 [32m+[m
+ node_modules/statuses/codes.json                   |   65 [32m+[m
+ node_modules/statuses/index.js                     |  146 [32m+[m
+ node_modules/statuses/package.json                 |   49 [32m+[m
+ node_modules/toidentifier/HISTORY.md               |    9 [32m+[m
+ node_modules/toidentifier/LICENSE                  |   21 [32m+[m
+ node_modules/toidentifier/README.md                |   61 [32m+[m
+ node_modules/toidentifier/index.js                 |   32 [32m+[m
+ node_modules/toidentifier/package.json             |   38 [32m+[m
+ node_modules/type-is/HISTORY.md                    |  259 [32m+[m
+ node_modules/type-is/LICENSE                       |   23 [32m+[m
+ node_modules/type-is/README.md                     |  170 [32m+[m
+ node_modules/type-is/index.js                      |  266 [32m+[m
+ node_modules/type-is/package.json                  |   45 [32m+[m
+ node_modules/unpipe/HISTORY.md                     |    4 [32m+[m
+ node_modules/unpipe/LICENSE                        |   22 [32m+[m
+ node_modules/unpipe/README.md                      |   43 [32m+[m
+ node_modules/unpipe/index.js                       |   69 [32m+[m
+ node_modules/unpipe/package.json                   |   27 [32m+[m
+ node_modules/utils-merge/.npmignore                |    9 [32m+[m
+ node_modules/utils-merge/LICENSE                   |   20 [32m+[m
+ node_modules/utils-merge/README.md                 |   34 [32m+[m
+ node_modules/utils-merge/index.js                  |   23 [32m+[m
+ node_modules/utils-merge/package.json              |   40 [32m+[m
+ node_modules/vary/HISTORY.md                       |   39 [32m+[m
+ node_modules/vary/LICENSE                          |   22 [32m+[m
+ node_modules/vary/README.md                        |  101 [32m+[m
+ node_modules/vary/index.js                         |  149 [32m+[m
+ node_modules/vary/package.json                     |   43 [32m+[m
+ package-lock.json                                  |  773 [32m++[m
+ package.json                                       |   12 [32m+[m
+ public/css/styles.css                              |  260 [32m+[m
+ public/images/facebook-icon.png                    |  Bin [31m0[m -> [32m1702[m bytes
+ public/images/favicon.ico                          |  Bin [31m0[m -> [32m15406[m bytes
+ public/images/instagram-icon.png                   |  Bin [31m0[m -> [32m5011[m bytes
+ public/images/logo.jpg                             |  Bin [31m0[m -> [32m4667[m bytes
+ public/images/producto1.jpg                        |  Bin [31m0[m -> [32m94148[m bytes
+ public/images/producto11.jpg                       |  Bin [31m0[m -> [32m290142[m bytes
+ public/images/producto12.png                       |  Bin [31m0[m -> [32m50086[m bytes
+ public/images/producto2.jpg                        |  Bin [31m0[m -> [32m135984[m bytes
+ public/images/producto21.png                       |  Bin [31m0[m -> [32m144335[m bytes
+ public/images/producto22.png                       |  Bin [31m0[m -> [32m212378[m bytes
+ public/images/producto31.jpg                       |  Bin [31m0[m -> [32m67690[m bytes
+ public/images/producto32.png                       |  Bin [31m0[m -> [32m125488[m bytes
+ public/images/whatsapp-icon.jpg                    |  Bin [31m0[m -> [32m4789[m bytes
+ public/js/script.js                                |    5 [32m+[m
+ server.js                                          |   65 [32m+[m
+ views/accesorios.html                              |   64 [32m+[m
+ views/contacto.html                                |   49 [32m+[m
+ views/hombres.html                                 |   63 [32m+[m
+ views/index.html                                   |   60 [32m+[m
+ views/mujeres.html                                 |   63 [32m+[m
+ 544 files changed, 65839 insertions(+)
+
+[33mcommit 003f6e04eb9c4ba860371720839b24489962b0da[m
+Author: Ivans991 <isotoriv@estudiante.ibero.edu.co>
+Date:   Fri Nov 22 12:35:13 2024 -0500
+
+    Initial commit
+
+ .gitignore | 130 [32m+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[m
+ LICENSE    |  21 [32m++++++++++[m
+ README.md  |   2 [32m+[m
+ 3 files changed, 153 insertions(+)
